@@ -5,16 +5,27 @@
   <div class="container py-5">
     <div class="row g-5">
       <div class="col-lg-3 col-md-6">
-        <p class="mb-2">
-          <i class="fa fa-envelope me-3"></i>soporte@mxportalproveedores.com
+        <p class="mb-2 d-flex align-items-center">
+          <i class="fa fa-envelope me-3"></i>
+          <span>soporte@mxportalproveedores.com</span>
         </p>
-      </div>
-      <div class="col-lg-3 col-md-6">
-        <h4 class="text-white mb-4">Horario laboral</h4>
-        <p class="mb-1">Lunes - Viernes</p>
-        <h6 class="text-light">09:00 am - 05:00 pm</h6>
-        <p class="mb-1">Domingo</p>
-        <h6 class="text-light">Cerrado</h6>
+        <div class="d-flex">
+          <a
+            [routerLink]="['/terms-and-conditions']"
+            routerLinkActive="active"
+            class="nav-link me-2"
+          >
+            Términos y condiciones
+          </a>
+          |
+          <a
+            [routerLink]="['/privacy-policy']"
+            routerLinkActive="active"
+            class="nav-link ms-2"
+          >
+            Políticas de privacidad
+          </a>
+        </div>
       </div>
     </div>
   </div>

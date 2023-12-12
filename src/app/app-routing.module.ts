@@ -11,11 +11,11 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: "nosotros",
+    path: "terms-and-conditions",
     component: AboutComponent
   },
   {
-    path: "servicios",
+    path: "privacy-policy",
     component: ServiceComponent
   },
   // {
